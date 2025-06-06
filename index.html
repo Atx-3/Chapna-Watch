@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Chapna-Watch</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="container">
+    <div id="mode">TIMER</div>
+    <div id="time">00:00</div>
+    <div id="instructions">
+      <p><kbd>↑ ↓ ← →</kbd> - Edit Time (Min & Sec)</p>
+      <p><kbd>Space</kbd> - Start / Stop</p>
+      <p><kbd>R</kbd> - Reset</p>
+      <p><kbd>S</kbd> - Switch Mode</p>
+    </div>
+  </div>
+  <audio id="tickSound" src="tick.mp3" preload="auto"></audio>
+  <audio id="doneSound" src="done.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
