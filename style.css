@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+#time {
+  font-size: 30vw;
+  font-weight: bold;
+  line-height: 1;
+}
+
+#mode {
+  font-size: 2vw;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+#instructions {
+  position: absolute;
+  bottom: 2vh;
+  font-size: 1.2vw;
+  opacity: 0.6;
+}
+
+kbd {
+  background: #333;
+  border-radius: 5px;
+  padding: 2px 6px;
+  margin: 0 2px;
+}
